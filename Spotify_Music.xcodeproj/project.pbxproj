@@ -30,6 +30,7 @@
 		AD7E3DFB2B2448C000E5C1CF /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7E3DFA2B2448C000E5C1CF /* Artist.swift */; };
 		AD7E3DFD2B2448CD00E5C1CF /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7E3DFC2B2448CD00E5C1CF /* UserProfile.swift */; };
 		AD7E3DFF2B24773200E5C1CF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7E3DFE2B24773200E5C1CF /* Extensions.swift */; };
+		AD7E3E012B248DCC00E5C1CF /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7E3E002B248DCC00E5C1CF /* AuthResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		AD7E3DFA2B2448C000E5C1CF /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		AD7E3DFC2B2448CD00E5C1CF /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		AD7E3DFE2B24773200E5C1CF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		AD7E3E002B248DCC00E5C1CF /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				AD7E3DF82B2448A800E5C1CF /* AudioTrack.swift */,
 				AD7E3DFA2B2448C000E5C1CF /* Artist.swift */,
 				AD7E3DFC2B2448CD00E5C1CF /* UserProfile.swift */,
+				AD7E3E002B248DCC00E5C1CF /* AuthResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 				AD7E3DE92B24472E00E5C1CF /* ProfileViewController.swift in Sources */,
 				AD7E3DF52B2447F500E5C1CF /* HapticsManager.swift in Sources */,
 				AD7E3DDB2B24463B00E5C1CF /* TabBarViewController.swift in Sources */,
+				AD7E3E012B248DCC00E5C1CF /* AuthResponse.swift in Sources */,
 				AD7E3DF92B2448A800E5C1CF /* AudioTrack.swift in Sources */,
 				AD7E3DC52B243ED500E5C1CF /* HomeViewController.swift in Sources */,
 				AD7E3DF72B24489700E5C1CF /* PlayList.swift in Sources */,

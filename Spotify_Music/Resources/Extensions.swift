@@ -44,3 +44,15 @@ extension UIView {
         })
     }
 }
+
+extension UIViewController {
+    func showToast(title:String,message:String) {
+        let alert = UIAlertController(title: title, message: message, preferredStyle: .actionSheet)
+        
+        present(alert, animated: true)
+        
+        DispatchQueue.main.asyncAfter(deadline: .now()+3) {
+            alert.dismiss(animated: true)
+        }
+    }
+}
